@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kwaale/JuegoDados.git/static/css/main.1ad700f6.chunk.css",
+    "main.js": "/kwaale/JuegoDados.git/static/js/main.c979b1de.chunk.js",
+    "main.js.map": "/kwaale/JuegoDados.git/static/js/main.c979b1de.chunk.js.map",
+    "runtime-main.js": "/kwaale/JuegoDados.git/static/js/runtime-main.00f24719.js",
+    "runtime-main.js.map": "/kwaale/JuegoDados.git/static/js/runtime-main.00f24719.js.map",
+    "static/js/2.eeeb197b.chunk.js": "/kwaale/JuegoDados.git/static/js/2.eeeb197b.chunk.js",
+    "static/js/2.eeeb197b.chunk.js.map": "/kwaale/JuegoDados.git/static/js/2.eeeb197b.chunk.js.map",
+    "static/js/3.9bcba3da.chunk.js": "/kwaale/JuegoDados.git/static/js/3.9bcba3da.chunk.js",
+    "static/js/3.9bcba3da.chunk.js.map": "/kwaale/JuegoDados.git/static/js/3.9bcba3da.chunk.js.map",
+    "index.html": "/kwaale/JuegoDados.git/index.html",
+    "static/css/main.1ad700f6.chunk.css.map": "/kwaale/JuegoDados.git/static/css/main.1ad700f6.chunk.css.map",
+    "static/js/2.eeeb197b.chunk.js.LICENSE.txt": "/kwaale/JuegoDados.git/static/js/2.eeeb197b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00f24719.js",
+    "static/js/2.eeeb197b.chunk.js",
+    "static/css/main.1ad700f6.chunk.css",
+    "static/js/main.c979b1de.chunk.js"
+  ]
+}
