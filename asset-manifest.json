@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/JuegoDados.git/static/css/main.1ad700f6.chunk.css",
-    "main.js": "/JuegoDados.git/static/js/main.c979b1de.chunk.js",
-    "main.js.map": "/JuegoDados.git/static/js/main.c979b1de.chunk.js.map",
-    "runtime-main.js": "/JuegoDados.git/static/js/runtime-main.4e680bc4.js",
-    "runtime-main.js.map": "/JuegoDados.git/static/js/runtime-main.4e680bc4.js.map",
-    "static/js/2.eeeb197b.chunk.js": "/JuegoDados.git/static/js/2.eeeb197b.chunk.js",
-    "static/js/2.eeeb197b.chunk.js.map": "/JuegoDados.git/static/js/2.eeeb197b.chunk.js.map",
-    "static/js/3.9bcba3da.chunk.js": "/JuegoDados.git/static/js/3.9bcba3da.chunk.js",
-    "static/js/3.9bcba3da.chunk.js.map": "/JuegoDados.git/static/js/3.9bcba3da.chunk.js.map",
-    "index.html": "/JuegoDados.git/index.html",
-    "static/css/main.1ad700f6.chunk.css.map": "/JuegoDados.git/static/css/main.1ad700f6.chunk.css.map",
-    "static/js/2.eeeb197b.chunk.js.LICENSE.txt": "/JuegoDados.git/static/js/2.eeeb197b.chunk.js.LICENSE.txt"
+    "main.css": "/JuegoDados/static/css/main.1ad700f6.chunk.css",
+    "main.js": "/JuegoDados/static/js/main.c979b1de.chunk.js",
+    "main.js.map": "/JuegoDados/static/js/main.c979b1de.chunk.js.map",
+    "runtime-main.js": "/JuegoDados/static/js/runtime-main.e0cc59d8.js",
+    "runtime-main.js.map": "/JuegoDados/static/js/runtime-main.e0cc59d8.js.map",
+    "static/js/2.eeeb197b.chunk.js": "/JuegoDados/static/js/2.eeeb197b.chunk.js",
+    "static/js/2.eeeb197b.chunk.js.map": "/JuegoDados/static/js/2.eeeb197b.chunk.js.map",
+    "static/js/3.9bcba3da.chunk.js": "/JuegoDados/static/js/3.9bcba3da.chunk.js",
+    "static/js/3.9bcba3da.chunk.js.map": "/JuegoDados/static/js/3.9bcba3da.chunk.js.map",
+    "index.html": "/JuegoDados/index.html",
+    "static/css/main.1ad700f6.chunk.css.map": "/JuegoDados/static/css/main.1ad700f6.chunk.css.map",
+    "static/js/2.eeeb197b.chunk.js.LICENSE.txt": "/JuegoDados/static/js/2.eeeb197b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4e680bc4.js",
+    "static/js/runtime-main.e0cc59d8.js",
     "static/js/2.eeeb197b.chunk.js",
     "static/css/main.1ad700f6.chunk.css",
     "static/js/main.c979b1de.chunk.js"
