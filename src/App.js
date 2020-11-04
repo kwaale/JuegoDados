@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Juego de dados</h1>
-        <p>Darle click en "Generar" si asiertas los tres dados iguales, ganas.</p>
+        <p>Dale click en el bonton "Generar" y trata de que todos los dados sean iguales, si aciertas los tres dados iguales, !!!Ganas.</p>
         <Dado valor={this.state.valor1} />
         <Dado valor={this.state.valor2} />
         <Dado valor={this.state.valor3} />
@@ -42,7 +42,7 @@ class App extends Component {
   }
   winerGame(){
     if(this.state.valor1 === this.state.valor2 && this.state.valor3 === this.state.valor2){
-      return (<h3>Ganaste</h3>)
+      return (<h3>!!!!!!!!!!!!Ganaste¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡</h3>)
     }else return (<h3>Intenta de nuevo</h3>)
   }
 }
