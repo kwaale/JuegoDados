@@ -1,18 +1,20 @@
 import './App.css';
 import React, { Component } from 'react';
-import Dado from './Dado.jsx';
+// import Dado from './Dado.jsx';
+import Input from './components/Input';
+
 
 
 class App extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-      valor1: this.generator(),
-      valor2: this.generator(),
-      valor3: this.generator(),
-    }
-    this.tirar = this.tirar.bind(this);
-    this.winerGame = this.winerGame.bind(this);
+    // this.state = {
+    //   valor1: this.generator(),
+    //   valor2: this.generator(),
+    //   valor3: this.generator(),
+    // }
+    // this.tirar = this.tirar.bind(this);
+    // this.winerGame = this.winerGame.bind(this);
   }
 
   render() {
@@ -20,30 +22,10 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Juego de dados</h1>
-        <p>Dale click en el bonton "Generar" y trata de que todos los dados sean iguales, si aciertas los tres dados iguales, !!!Ganas.</p>
-        <Dado valor={this.state.valor1} />
-        <Dado valor={this.state.valor2} />
-        <Dado valor={this.state.valor3} />
-        <button onClick={this.tirar}>Generar</button>
-        {this.winerGame()}
+        <p>Coloca el numero de dados que vas a usar y luego lanzalos todas las veces que necesites.</p>
+        <Input/>
       </div>
     );
-  }
-  tirar(e){
-    e.preventDefault();
-    this.setState({
-      valor1:this.generator(),      
-      valor2:this.generator(),      
-      valor3:this.generator(),      
-    })
-  }
-  generator() {
-    return Math.trunc(Math.random() * 7);
-  }
-  winerGame(){
-    if(this.state.valor1 === this.state.valor2 && this.state.valor3 === this.state.valor2){
-      return (<h3>!!!!!!!!!!!!Ganaste¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡</h3>)
-    }else return (<h3>Intenta de nuevo</h3>)
   }
 }
 
