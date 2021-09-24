@@ -8,7 +8,7 @@ function Dado(props){
     // clearTimeout()
   },[])
   return(
-    <img className='dado-recuadro' src={props.image}/>
+    <img className='crap' src={props.image}/>
   )
 }
 
