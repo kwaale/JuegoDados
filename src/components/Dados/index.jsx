@@ -14,7 +14,6 @@ const Dados = ({input})=>{
     const [craps, setCraps] = useState([]);
     const [total, setTotal]= useState(null);
     const randomCrap = () =>{
-        // let image = ''
         const num = Math.floor(Math.random() * 6) + 1
         if(num === 1) return {image:dado1, num}
         if(num === 2) return {image:dado2, num}
@@ -45,7 +44,7 @@ const Dados = ({input})=>{
             setTotal(totallizer)
             array.push(obj);
         }
-        setTimeout(setCraps(array),4000)
+        setCraps(array)
     }
     const lanzarDados = () =>{
         quantityCraps(input)
@@ -62,8 +61,8 @@ const Dados = ({input})=>{
             <div>
                 Historico
             </div>
-            {total && <Totallizer total={total} />}
-            {total && <button className='btn-lanzar' onClick={lanzarDados}>Lanzar</button>}
+            {craps == 0 ? <h1></h1> : <Totallizer total={total} />}
+            {craps == 0 ? <h1></h1> : <button className='btn-lanzar' onClick={lanzarDados}>Lanzar</button>}
             <div className='craps-container'>
                 {dadosAndando(craps)}
             </div>
