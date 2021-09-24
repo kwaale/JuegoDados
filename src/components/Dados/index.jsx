@@ -59,6 +59,9 @@ const Dados = ({input})=>{
     }
     return(
         <div className='dados-container'>
+            <div>
+                Historico
+            </div>
             {total && <Totallizer total={total} />}
             {total && <button className='btn-lanzar' onClick={lanzarDados}>Lanzar</button>}
             <div className='craps-container'>

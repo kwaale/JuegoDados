@@ -4,10 +4,14 @@ import './Input.css';
 
 
 const Input = () => {
-    const [craps, setCraps] = useState(0)
+    const [craps, setCraps] = useState(0);
+
     const crapsCuantity = (e) => {
-        const { value } = e.target
+        if(!e.target.value)return setCraps(parseInt(0))
+        if(isNaN(e.target.value))return
+        const value = parseInt(e.target.value);
         setCraps(parseInt(value) && parseInt(value))
+
     }
     const handlerCrapsNumber = (sum)=>{
         if(sum === '-' && craps > 0)setCraps(craps - 1)

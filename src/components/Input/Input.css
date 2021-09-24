@@ -14,11 +14,11 @@
 	font-size: x-large;
 }
 .btn-plus {
-	background: black;
-	color: white;
-	border-style: outset;
+	color: black;
+	border-style: none;
 	height: 45px;
 	width: 45px;
 	margin: 3px;
-	font-size: xx-large;
+	font-size: xxx-large;
+	background: none;
 }
