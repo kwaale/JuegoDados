@@ -3,17 +3,26 @@ import Dados from '../Dados';
 import './Input.css';
 
 
-const Input = ()=>{
+const Input = () => {
     const [craps, setCraps] = useState(0)
-    const crapsCuantity = (e)=>{
-        const {value} = e.target
-        setCraps(value)
+    const crapsCuantity = (e) => {
+        const { value } = e.target
+        setCraps(parseInt(value) && parseInt(value))
+    }
+    const handlerCrapsNumber = (sum)=>{
+        if(sum === '-' && craps > 0)setCraps(craps - 1)
+        if(sum === '+' && craps < 2000)setCraps(craps + 1)
+        
     }
 
-    return(
+    return (
         <div className='containers'>
-            <input type="number" placeholder="cantidad de dados" onChange={crapsCuantity}></input>
-            <Dados input={craps}/>
+            <div>
+                <button className='btn-plus' onClick={()=>handlerCrapsNumber('-')}>-</button>
+                <input className='input' type="text" placeholder="0" onChange={crapsCuantity} value={craps}></input>
+                <button className='btn-plus' onClick={()=>handlerCrapsNumber('+')}>+</button>
+            </div>
+            <Dados input={craps} />
         </div>
     )
 }

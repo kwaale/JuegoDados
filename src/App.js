@@ -21,7 +21,6 @@ class App extends Component {
     
     return (
       <div className="App">
-        <h1 className='mantenimiento'>Pagina en Mantenimiento</h1>
         <h1>Juego de dados</h1>
         <p>Coloca el numero de dados que vas a usar y luego lanzalos todas las veces que necesites.</p>
         <Input/>

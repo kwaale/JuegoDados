@@ -59,11 +59,11 @@ const Dados = ({input})=>{
     }
     return(
         <div className='dados-container'>
-                {total && <Totallizer total={total} />}
-                <div className='craps-container'>
+            {total && <Totallizer total={total} />}
+            {total && <button className='btn-lanzar' onClick={lanzarDados}>Lanzar</button>}
+            <div className='craps-container'>
                 {dadosAndando(craps)}
             </div>
-            {total && <button className='btn-lanzar' onClick={lanzarDados}>Lanzar</button>}
         </div>
     )
 
