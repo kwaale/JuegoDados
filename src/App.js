@@ -2,6 +2,7 @@ import './App.css';
 import React, { Component } from 'react';
 // import Dado from './Dado.jsx';
 import Input from './components/Input';
+import Footer from './components/Footer';
 
 
 
@@ -24,6 +25,7 @@ class App extends Component {
         <h1>- Juego de dados -</h1>
         <p>Coloca el numero de dados que vas a usar y luego lanzalos todas las veces que necesites.</p>
         <Input/>
+        <Footer/>
       </div>
     );
   }
