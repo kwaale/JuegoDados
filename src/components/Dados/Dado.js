@@ -1,14 +1,13 @@
 import './Dados.css';
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 function Dado(props){
-  console.log('Componente Dado')
-  useEffect(()=>{
+  // useEffect(()=>{
     // setTimeout(console.log('Componente Dado timer'),4000)
     // clearTimeout()
-  },[])
+  // },[])
   return(
-    <img className='crap' src={props.image}/>
+    <img className='crap' src={props.image} alt={props.num}/>
   )
 }
 

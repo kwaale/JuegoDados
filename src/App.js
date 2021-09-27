@@ -7,8 +7,8 @@ import Footer from './components/Footer';
 
 
 class App extends Component {
-  constructor(props) {
-    super(props)
+  // constructor(props) {
+    // super(props)
     // this.state = {
     //   valor1: this.generator(),
     //   valor2: this.generator(),
@@ -16,7 +16,7 @@ class App extends Component {
     // }
     // this.tirar = this.tirar.bind(this);
     // this.winerGame = this.winerGame.bind(this);
-  }
+  // }
 
   render() {
     
